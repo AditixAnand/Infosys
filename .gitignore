@@ -128,8 +128,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Streamlit
+# Streamlit (but keep config.toml)
 .streamlit/
+!.streamlit/
+!.streamlit/config.toml
 
 # OAuth2 Credentials (NEVER COMMIT THESE!)
 credentials.json
@@ -149,6 +151,18 @@ exports/
 *.txt
 !README.md
 !OAUTH_SETUP.md
+!DEPLOYMENT.md
+
+# Requirements files (keep these)
+!requirements.txt
+!requirements-minimal.txt
+
+# Runtime files (keep these)
+!runtime.txt
+
+# Streamlit config (keep this)
+!.streamlit/
+!.streamlit/config.toml
 
 # Temporary files
 temp/
