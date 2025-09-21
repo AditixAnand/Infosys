@@ -1,9 +1,12 @@
+# Use CPU-only PyTorch wheels
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 # Core
 streamlit==1.27.0
 numpy==1.26.0
 pandas==2.1.1
 
-# Audio processing (CPU-only builds)
+# Audio processing
 torch==2.2.0+cpu
 torchaudio==2.2.0+cpu
 torch-audiomentations==0.11.0
@@ -30,4 +33,5 @@ ruamel.yaml.clib==0.2.12
 google-auth==2.23.0
 google-auth-oauthlib==1.0.0
 requests==2.31.0
+
 
