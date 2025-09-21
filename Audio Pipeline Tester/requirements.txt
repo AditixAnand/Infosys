@@ -3,7 +3,7 @@ streamlit==1.27.0
 numpy==1.26.0
 pandas==2.1.1
 
-# Audio processing
+# Audio processing (CPU-only builds)
 torch==2.2.0+cpu
 torchaudio==2.2.0+cpu
 torch-audiomentations==0.11.0
@@ -26,7 +26,7 @@ humanfriendly==10.0
 ruamel.yaml==0.18.15
 ruamel.yaml.clib==0.2.12
 
-# Optional: if using OAuth/Google APIs
+# Google OAuth / API access
 google-auth==2.23.0
 google-auth-oauthlib==1.0.0
 requests==2.31.0
